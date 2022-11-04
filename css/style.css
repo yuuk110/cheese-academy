@@ -1,0 +1,583 @@
+/* ここから下に記載していく */
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+}
+
+.header-nav ul {
+    display: flex;
+    align-items: center;
+    
+}
+
+ul {
+    margin-top: 50px;
+}
+
+.li-about a {
+    text-decoration: none;
+    color: black;
+}
+
+.li-course {
+    padding-left: 50px;
+}
+
+.li-course a {
+    text-decoration: none;
+    color: black;
+}
+
+.li-news {
+    padding-left: 50px;
+}
+
+.li-news a {
+    text-decoration: none;
+    color: black;
+}
+
+.li-access {
+    padding-left: 50px;
+}
+
+.li-access a {
+    text-decoration: none;
+    color: black;
+}
+
+.li-contact {
+    padding-left: 50px;
+    padding-right: 200px;
+}
+
+.li-contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-visual {
+    
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    animation: image_anime 7s ease infinite; /* 5秒のアニメーションを繰り返す */
+}
+@keyframes image_anime {
+    0% {
+      background-image: url(../img/mainbg.png); /* 背景画像1を指定 */
+    }
+    50% {
+      background-image: url(../img/about_01.jpg); /* 背景画像2を指定 */
+    }
+    100% {
+      background-image: url(../img/about_04.jpg); /* 背景画像1を指定 */
+    }
+  }
+
+.main-title {
+    padding-top: 250px;
+    font-size: 30px;
+    color: white;
+
+}
+
+.main-subtitle {
+    padding-top: 30px;
+    color: white;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    color:#ffd61a;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+.about h3 {
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.p1 {
+    padding-bottom: 40px;
+    font-size: 16px;
+}
+.p2 {
+    padding-bottom: 40px;
+    font-size: 16px;
+}
+
+.p2 p {
+    padding-bottom: 8px;
+}
+
+.p3 {
+    padding-bottom: 40px;
+    font-size: 16px;
+}
+
+.p4 {
+    padding-bottom: 80px;
+    font-size: 16px;
+}
+
+.p4 p {
+    padding-bottom: 8px;
+}
+
+.sride {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.sride img {
+    width: 300px;
+}
+
+.fadein {
+    opacity : 0;
+    transition : all 3s;
+}
+
+.fadein.active{
+    opacity : 1;
+}
+
+
+
+.course {
+    text-align: center;
+}
+
+.course h2 {
+    padding-bottom: 40px;
+    font-size: 24px;
+}
+
+.course-content {
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.course-content p {
+    padding-bottom: 8px;
+}
+
+.course-img1 {
+    display: flex;
+    justify-content: center;
+    transition: .7s ease-in-out ;
+    
+}
+
+
+
+.img1-content {
+    padding-left: 50px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #fafafa;
+    width: 480px;
+}
+
+.img1-content h3 {
+    padding-bottom: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.course-img2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    transition: .7s ease-in-out ;
+}
+
+
+
+.img2-content {
+    padding-left: 50px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #fafafa;
+    width: 480px;
+}
+
+.img2-content h3 {
+    padding-bottom: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.course-img3 {
+    display: flex;
+    justify-content: center;
+    transition: .7s ease-in-out
+}
+
+
+
+.img3-content {
+    padding-left: 50px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #fafafa;
+    width: 480px;
+}
+
+.img3-content h3 {
+    padding-bottom: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+.news-content {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background: linear-gradient(45deg, #757575 0%, #9E9E9E 45%, #E8E8E8 70%, #9E9E9E 85%, #757575 90% 100%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.news-content h3 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.news {
+    padding-bottom: 30px;
+    color:#ffd61a;
+    text-align: center;
+    font-size: 24px;
+}
+
+.news-card {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.news-card1 {
+    width: 300px;
+    padding-right: 30px;
+}
+
+.news-card1 img {
+    padding-bottom: 30px;
+}
+
+.news-card2 {
+    width: 300px;
+    padding-right: 30px;
+}
+
+.news-card2 img {
+    padding-bottom: 30px;
+}
+
+.news-card3 {
+    width: 300px;
+}
+
+.news-card3 img {
+    padding-bottom: 30px;
+}
+
+.day {
+    padding-bottom: 24px;
+}
+
+.np {
+    padding-bottom: 8px;
+}
+
+.btn-more {
+    text-align: center;
+}
+
+.btn-more button {
+    width: 300px;
+    height: 60px;
+    background-color: #ffd61a;
+    font-size: 18px;
+    color: white;
+}
+
+.more-card {
+    display: none;
+}
+
+.more-hide {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.access {
+    padding-top: 60px;
+    background-color: #fafafa;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.access h2 {
+    font-size: 24px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.access h3 {
+    font-size: 18px;
+    padding-bottom: 60px;
+    
+}
+
+.ac1 {
+    display: flex;
+    justify-content: center;
+}
+    
+
+li {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.ac1-lavel {
+    padding-right: 80px;
+}
+
+.ac2-lavel {
+    padding-right: 30px;
+}
+
+.ac3-lavel {
+    padding-right: 100px;
+}
+
+.ac4-lavel {
+    padding-right: 100px;
+}
+
+.ac5-lavel {
+    padding-right: 90px;
+}
+
+
+
+.contact {
+    text-align: center;
+    background: linear-gradient(45deg, #B67B03 0%, #DAAF08 45%, #FEE9A0 70%, #DAAF08 85%, #B67B03 90% 100%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact h2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.contact h3 {
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.contact-content {
+    padding-bottom: 30px;
+}
+
+.contact-note {
+    padding-bottom: 70px;
+}
+
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form li {
+    align-items: center;
+}
+
+.label1 {
+    padding-right: 150px;
+}
+
+.label2 {
+    padding-right: 150px;
+}
+
+.label3 {
+    padding-right: 70px;
+}
+
+.label4 {
+    padding-right: 35px;
+}
+
+.check-content {
+    padding-left: 110px;
+}
+
+.box1 {
+    padding-bottom: 24px;
+}
+
+.box2 {
+    padding-bottom: 24px;
+}
+
+.box3 {
+    padding-bottom: 24px;
+}
+
+.box4 {
+    padding-bottom: 24px;
+}
+
+.label5 {
+    padding-right: 140px;
+}
+
+
+
+.check1 {
+    display: flex;
+    justify-content: center;
+}
+
+.label {
+    display: flex;
+}
+
+.box1 {
+    display: flex;
+}
+
+.box2 {
+    display: flex;
+}
+
+.box3 {
+    display: flex;
+}
+
+.box4 {
+    display: flex;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+.button2 {
+    margin-bottom: 140px;
+}
+
+.button2 button {
+    width: 300px;
+    height: 60px;
+    background-color: #ffd61a;
+    font-size: 18px;
+    color: white;
+}
+
+footer {
+    background-color:  #707070;
+}
+
+#page-top a{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background:#942D2F;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase; 
+    text-decoration: none;
+    font-size:0.6rem;
+    transition:all 0.3s;
+  }
+  
+  #page-top a:hover{
+    background: #777;
+  }
+  
+  /*リンクを右下に固定*/
+  #page-top {
+    position: fixed;
+    right: 10px;
+    z-index: 2;
+      /*はじめは非表示*/
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  
+  /*　上に上がる動き　*/
+  
+  #page-top.UpMove{
+    animation: UpAnime 0.5s forwards;
+  }
+  @keyframes UpAnime{
+    from {
+      opacity: 0;
+    transform: translateY(100px);
+    }
+    to {
+      opacity: 1;
+    transform: translateY(0);
+    }
+  }
+  
+  /*　下に下がる動き　*/
+  
+  #page-top.DownMove{
+    animation: DownAnime 0.5s forwards;
+  }
+  @keyframes DownAnime{
+    from {
+      opacity: 1;
+    transform: translateY(0);
+    }
+    to {
+      opacity: 1;
+    transform: translateY(100px);
+    }
+  }
+
+.copy {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.map iframe {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
